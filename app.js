@@ -241,7 +241,7 @@ const content = $('practice');
 const state = {
   gender: 'all', selected: 2, scenario: 0, step: 0, topic: 1,
   view: 'discover', stage: 'profile', phraseFilter: 'all',
-  notes: {}, quiz: 0
+  notes: {}, quiz: 0, practiceMode: 'chat'
 };
 
 function flame(level) {
@@ -329,7 +329,8 @@ function render() {
       render();
     };
   });
-  if (state.stage === 'roleplay') roleplay();
+  if (state.stage === 'chat') ChindaChatUI.render();
+  else if (state.stage === 'roleplay') roleplay();
   else if (state.stage === 'reflection') reflect();
   else readProfile();
 }
@@ -346,7 +347,19 @@ function readProfile() {
     <div class="boundary-note"><b>♡ A boundary to remember</b><p>${person.boundary}</p></div>
     <div class="practice-note"><b>Your speaking focus</b><p>${person.practice}</p></div>
   </article>
-  <section class="scenario-picker"><div class="eyebrow">02 / CHOOSE THE SETTING</div>
+  <div class="practice-mode" role="group" aria-label="Practice format">
+    <button data-mode="chat" aria-pressed="${state.practiceMode === 'chat'}">♡ Dating-app chat</button>
+    <button data-mode="guided" aria-pressed="${state.practiceMode === 'guided'}">✧ Guided roleplay</button>
+  </div>
+  <section id="practice-choice"></section>`;
+  document.querySelectorAll('[data-mode]').forEach(button => {
+    button.onclick = () => { state.practiceMode = button.dataset.mode; readProfile(); };
+  });
+  if (state.practiceMode === 'chat') {
+    ChindaChatUI.renderEntry($('practice-choice'));
+    return;
+  }
+  $('practice-choice').innerHTML = `<section class="scenario-picker"><div class="eyebrow">02 / CHOOSE THE SETTING</div>
     <div class="scenario-options">${scenarios.map((scenario, index) => scenario.level > state.topic ? '' : `<button data-scenario="${index}" class="${state.scenario === index ? 'selected' : ''}" aria-pressed="${state.scenario === index}">${scenario.icon} ${scenario.name}${scenario.level ? `<span class="scenario-heat">${flame(scenario.level)}</span>` : ''}</button>`).join('')}</div>
     <p>${scenarios[state.scenario].setting}</p>
     ${state.topic === 2 ? '<p class="adult-topic-note">18+ topic selected: sexual intentions, consent, and sexual-health vocabulary. Examples are educational and non-graphic. Switch topics at any time.</p>' : ''}
