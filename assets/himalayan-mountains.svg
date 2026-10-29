@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" fill="none">
+  <title>Rose Himalayan mountain landscape</title>
+  <defs><linearGradient id="sky" x1="400" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#fff6f8" stop-opacity="0"/><stop offset="1" stop-color="#f9e3eb"/></linearGradient><linearGradient id="ridge" x1="400" y1="80" x2="400" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#dba9bc"/><stop offset="1" stop-color="#c995ab"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h800v200H0z"/>
+  <circle cx="651" cy="47" r="22" fill="#ebc5ce" opacity=".6"/>
+  <path d="m0 161 66-51 38 23 70-73 45 54 48-41 45 54 57-76 48 59 42-39 50 64 73-90 55 73 52-51 52 61 59-21v88H0v-34Z" fill="#edd0dc"/>
+  <path d="m117 120 57-60 45 54-25-10-18-24-11 24-17-3-31 19Zm210-29 42-40 48 59-25-11-17-25-12 18-11-6-25 5Zm188 24 57-70 55 73-29-17-23-35-17 29-12-4-31 24Z" fill="#fff6f7" opacity=".9"/>
+  <path d="m0 190 96-50 37 18 63-53 37 36 64-97 60 84 35-23 49 55 47-21 73-68 70 75 43-24 85 52 41-18v44H0v-10Z" fill="url(#ridge)"/>
+  <path d="m246 119 51-75 60 84-27-12-22-31-13-16-16 36-12-7-21 21Zm254 9 61-57 49 52-25-10-21-23-17 21-12-6-35 23Zm-350 17 46-40 37 36-20-9-15-12-11 13-11-3-26 15Z" fill="#fff0f3"/>
+  <path d="m297 44-7 78 27 37-12-63 52 32-60-84Zm264 27-3 77 30 21-24-79 46 33-49-52Z" fill="#bd8aa0" opacity=".6"/>
+  <path d="M0 186c71-22 101-2 161-8 61-6 74-17 129-12 55 6 101 31 154 22s89-17 142-10c77 10 140 3 214-12v34H0v-14Z" fill="#b9829a" opacity=".6"/>
+  <path d="M0 196c81-12 118-1 183-7 64-6 90 1 145 4s93-4 144-2c66 4 108 6 172 2s109-12 156-7v14H0v-4Z" fill="#a7728b" opacity=".42"/>
+</svg>

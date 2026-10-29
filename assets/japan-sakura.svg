@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none">
+  <title>Soft pink sakura branch</title>
+  <defs>
+    <linearGradient id="petal" x1="0" y1="0" x2="0" y2="-32" gradientUnits="userSpaceOnUse"><stop stop-color="#e98bab"/><stop offset=".52" stop-color="#f6c4d5"/><stop offset="1" stop-color="#ffeaf1"/></linearGradient>
+    <path id="petalShape" d="M0 1C-6-5-15-17-12-26C-11-34-4-35 0-29C4-35 11-34 12-26C15-17 6-5 0 1Z" fill="url(#petal)" stroke="#eab0c4" stroke-width=".6"/>
+    <g id="blossom">
+      <use href="#petalShape"/><use href="#petalShape" transform="rotate(72)"/><use href="#petalShape" transform="rotate(144)"/><use href="#petalShape" transform="rotate(216)"/><use href="#petalShape" transform="rotate(288)"/>
+      <g stroke="#ce7495" stroke-width=".8" stroke-linecap="round"><path d="M0 0 0-14M0 0 13-4M0 0 8 11M0 0-8 11M0 0-13-4"/></g>
+      <g fill="#b98c52"><circle cx="0" cy="-14" r="1.6"/><circle cx="13" cy="-4" r="1.6"/><circle cx="8" cy="11" r="1.6"/><circle cx="-8" cy="11" r="1.6"/><circle cx="-13" cy="-4" r="1.6"/></g>
+      <circle r="4.5" fill="#eeb3c6"/><circle r="2" fill="#c49567"/>
+    </g>
+    <g id="bud"><path d="M0 7C-11-3-10-17-3-20C4-22 11-10 0 7Z" fill="#ecabc1"/><path d="m0 7 1-16" stroke="#c97e9a" stroke-width="1"/><path d="m0 9-5-5 6 1 4-4-1 7" fill="#b9ab8e"/></g>
+  </defs>
+  <g stroke="#a9868c" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M610 8C553 43 517 84 468 116C426 145 389 149 344 177C277 219 222 234 158 283C123 308 89 322 44 338" stroke-width="9"/>
+    <path d="M487 103C476 73 453 51 425 33M426 144C411 119 402 98 401 76M351 173C337 138 310 120 280 113M273 217C255 196 249 169 252 146M201 251C179 236 151 234 119 240M148 288C130 273 123 254 126 227" stroke-width="4"/>
+    <path d="M547 59C537 38 537 21 543 2M451 129C453 155 445 179 428 196M376 160C377 193 391 213 414 228M305 200C303 230 314 252 332 268M225 237C224 264 215 289 197 305M99 319C91 298 80 288 63 282" stroke-width="3"/>
+    <path d="M412 58 390 43M320 136 316 106M246 173 228 157M158 239 145 218M391 207 378 221M313 246 294 257" stroke-width="2"/>
+  </g>
+  <g opacity=".95"><use href="#blossom" transform="translate(500 93) rotate(15) scale(1.02)"/><use href="#blossom" transform="translate(427 42) rotate(-17) scale(.72)"/><use href="#blossom" transform="translate(402 88) rotate(30) scale(.78)"/><use href="#blossom" transform="translate(435 178) rotate(-12) scale(.8)"/><use href="#blossom" transform="translate(344 173) rotate(9) scale(1.1)"/><use href="#blossom" transform="translate(283 118) rotate(-17) scale(.83)"/><use href="#blossom" transform="translate(253 159) rotate(13) scale(.7)"/><use href="#blossom" transform="translate(231 232) rotate(-14) scale(1.03)"/><use href="#blossom" transform="translate(317 248) rotate(32) scale(.75)"/><use href="#blossom" transform="translate(139 243) rotate(10) scale(.8)"/><use href="#blossom" transform="translate(162 286) rotate(-11) scale(.9)"/><use href="#blossom" transform="translate(85 317) rotate(27) scale(.7)"/></g>
+  <g><use href="#bud" transform="translate(542 16) rotate(20) scale(.75)"/><use href="#bud" transform="translate(391 45) rotate(-42) scale(.65)"/><use href="#bud" transform="translate(317 110) rotate(-4) scale(.72)"/><use href="#bud" transform="translate(228 163) rotate(-40) scale(.62)"/><use href="#bud" transform="translate(414 226) rotate(115) scale(.74)"/><use href="#bud" transform="translate(197 303) rotate(170) scale(.62)"/></g>
+  <g fill="#efb2c8" opacity=".7"><path d="M535 174c-7-13-16-4-10 4 4 5 9 3 10-4Z"/><path d="M471 270c2-12-12-14-13-4-1 6 9 12 13 4Z"/><path d="M365 310c-8-12-18-2-11 6 4 5 10 0 11-6Z"/><path d="M195 103c7-7-3-17-9-9-4 5 2 12 9 9Z"/></g>
+</svg>

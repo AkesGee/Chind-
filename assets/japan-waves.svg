@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" fill="none">
+  <title>Seigaiha-inspired pink wave pattern</title>
+  <defs><g id="wave" stroke="#dca3b8" stroke-width="1"><path d="M-40 0a40 40 0 0 1 80 0M-32 0a32 32 0 0 1 64 0M-24 0a24 24 0 0 1 48 0M-16 0a16 16 0 0 1 32 0M-8 0a8 8 0 0 1 16 0"/></g></defs>
+  <g opacity=".62"><use href="#wave" transform="translate(0 40)"/><use href="#wave" transform="translate(80 40)"/><use href="#wave" transform="translate(160 40)"/><use href="#wave" transform="translate(40 80)"/><use href="#wave" transform="translate(120 80)"/></g>
+</svg>

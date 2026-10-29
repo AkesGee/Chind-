@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 48" fill="none">
+  <title>Rose geometric border inspired by Tibetan woven textiles</title>
+  <path fill="#fff3f5" d="M0 0h192v48H0z"/>
+  <path fill="#bb7f92" d="M0 0h192v3H0zM0 45h192v3H0z"/>
+  <path stroke="#d5b578" stroke-width="1.5" d="M0 7h192M0 41h192"/>
+  <path stroke="#d99bac" stroke-width="1.2" d="M0 11h192M0 37h192"/>
+  <g stroke-linejoin="miter">
+    <path d="m0 24 12-12 12 12-12 12L0 24Zm24 0 12-12 12 12-12 12-12-12Zm24 0 12-12 12 12-12 12-12-12Zm24 0 12-12 12 12-12 12-12-12Zm24 0 12-12 12 12-12 12-12-12Zm24 0 12-12 12 12-12 12-12-12Zm24 0 12-12 12 12-12 12-12-12Zm24 0 12-12 12 12-12 12-12-12Z" fill="#efbdcb" stroke="#b6768b" stroke-width="1"/>
+    <path d="m6 24 6-6 6 6-6 6-6-6Zm48 0 6-6 6 6-6 6-6-6Zm48 0 6-6 6 6-6 6-6-6Zm48 0 6-6 6 6-6 6-6-6Z" fill="#b98c67"/>
+    <path d="M30 21h3v-3h6v3h3v6h-3v3h-6v-3h-3v-6Zm48 0h3v-3h6v3h3v6h-3v3h-6v-3h-3v-6Zm48 0h3v-3h6v3h3v6h-3v3h-6v-3h-3v-6Zm48 0h3v-3h6v3h3v6h-3v3h-6v-3h-3v-6Z" fill="#926779"/>
+    <path stroke="#fce5eb" stroke-width="1" d="M9 24h6M12 21v6M57 24h6M60 21v6M105 24h6M108 21v6M153 24h6M156 21v6"/>
+  </g>
+</svg>
